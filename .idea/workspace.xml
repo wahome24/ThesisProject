@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9a2327e1-485c-47b7-bdb4-c9433c36476a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/ThesisProject.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/News/FNSPID_news_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/News/News_Dataset A.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/News/News_Dataset B.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/News/sampled_news_data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Price/Price_Cleaned.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Price/Project_PriceData.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/ECT_Granular.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/ECT_Summary.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/ADSK/2020/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/ADSK/2020/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/ADSK/2020/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/ADSK/2020/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/ADSK/2021/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/ADSK/2021/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/ADSK/2021/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/ADSK/2021/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/ADSK/2022/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/ADSK/2022/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/ADSK/2022/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/ADSK/2022/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/ADSK/2023/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/ADSK/2023/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/ADSK/2023/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/ADSK/2023/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/ADSK/2024/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/ADSK/2024/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/ADSK/2024/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/ADSK/2024/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APA/2020/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APA/2020/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APA/2020/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APA/2020/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APA/2021/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APA/2021/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APA/2021/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APA/2021/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APA/2022/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APA/2022/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APA/2022/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APA/2022/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APA/2023/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APA/2023/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APA/2023/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APA/2023/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APA/2024/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APA/2024/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APA/2024/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APA/2024/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APTV/2020/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APTV/2020/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APTV/2020/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APTV/2020/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APTV/2021/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APTV/2021/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APTV/2021/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APTV/2021/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APTV/2022/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APTV/2022/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APTV/2022/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APTV/2022/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APTV/2023/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APTV/2023/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APTV/2023/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APTV/2023/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APTV/2024/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APTV/2024/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APTV/2024/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/APTV/2024/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BKR/2020/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BKR/2020/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BKR/2020/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BKR/2020/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BKR/2021/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BKR/2021/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BKR/2021/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BKR/2021/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BKR/2022/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BKR/2022/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BKR/2022/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BKR/2022/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BKR/2023/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BKR/2023/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BKR/2023/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BKR/2023/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BKR/2024/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BKR/2024/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BKR/2024/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BKR/2024/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BX/2020/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BX/2020/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BX/2020/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BX/2020/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BX/2021/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BX/2021/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BX/2021/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BX/2021/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BX/2022/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BX/2022/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BX/2022/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BX/2022/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BX/2023/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BX/2023/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BX/2023/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BX/2023/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BX/2024/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BX/2024/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BX/2024/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/BX/2024/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/CMCSA/2020/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/CMCSA/2020/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/CMCSA/2020/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/CMCSA/2020/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/CMCSA/2021/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/CMCSA/2021/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/CMCSA/2021/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/CMCSA/2021/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/CMCSA/2022/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/CMCSA/2022/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/CMCSA/2022/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/CMCSA/2022/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/CMCSA/2023/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/CMCSA/2023/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/CMCSA/2023/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/CMCSA/2023/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/CMCSA/2024/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/CMCSA/2024/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/CMCSA/2024/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/CMCSA/2024/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/DAL/2020/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/DAL/2020/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/DAL/2020/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/DAL/2020/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/DAL/2021/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/DAL/2021/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/DAL/2021/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/DAL/2021/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/DAL/2022/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/DAL/2022/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/DAL/2022/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/DAL/2022/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/DAL/2023/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/DAL/2023/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/DAL/2023/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/DAL/2023/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/DAL/2024/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/DAL/2024/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/DAL/2024/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/DAL/2024/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/FOX/2020/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/FOX/2020/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/FOX/2020/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/FOX/2020/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/FOX/2021/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/FOX/2021/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/FOX/2021/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/FOX/2021/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/FOX/2022/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/FOX/2022/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/FOX/2022/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/FOX/2022/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/FOX/2023/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/FOX/2023/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/FOX/2023/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/FOX/2023/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/FOX/2024/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/FOX/2024/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/FOX/2024/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GOOGL/2020/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GOOGL/2020/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GOOGL/2020/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GOOGL/2020/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GOOGL/2021/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GOOGL/2021/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GOOGL/2021/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GOOGL/2021/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GOOGL/2022/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GOOGL/2022/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GOOGL/2022/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GOOGL/2022/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GOOGL/2023/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GOOGL/2023/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GOOGL/2023/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GOOGL/2023/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GOOGL/2024/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GOOGL/2024/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GOOGL/2024/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GOOGL/2024/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GS/2020/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GS/2020/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GS/2020/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GS/2020/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GS/2021/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GS/2021/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GS/2021/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GS/2021/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GS/2022/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GS/2022/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GS/2022/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GS/2022/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GS/2023/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GS/2023/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GS/2023/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GS/2023/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GS/2024/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GS/2024/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GS/2024/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/GS/2024/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/HPE/2020/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/HPE/2020/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/HPE/2020/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/HPE/2020/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/HPE/2021/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/HPE/2021/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/HPE/2021/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/HPE/2021/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/HPE/2022/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/HPE/2022/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/HPE/2022/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/HPE/2022/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/HPE/2023/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/HPE/2023/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/HPE/2023/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/HPE/2023/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/HPE/2024/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/HPE/2024/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/HPE/2024/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/HPE/2024/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/INTC/2020/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/INTC/2020/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/INTC/2020/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/INTC/2020/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/INTC/2021/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/INTC/2021/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/INTC/2021/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/INTC/2021/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/INTC/2022/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/INTC/2022/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/INTC/2022/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/INTC/2022/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/INTC/2023/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/INTC/2023/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/INTC/2023/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/INTC/2023/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/INTC/2024/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/INTC/2024/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/INTC/2024/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/INTC/2024/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/PYPL/2020/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/PYPL/2020/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/PYPL/2020/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/PYPL/2020/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/PYPL/2021/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/PYPL/2021/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/PYPL/2021/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/PYPL/2021/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/PYPL/2022/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/PYPL/2022/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/PYPL/2022/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/PYPL/2022/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/PYPL/2023/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/PYPL/2023/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/PYPL/2023/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/PYPL/2023/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/PYPL/2024/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/PYPL/2024/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/PYPL/2024/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/PYPL/2024/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/WMT/2020/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/WMT/2021/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/WMT/2021/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/WMT/2021/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/WMT/2021/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/WMT/2022/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/WMT/2022/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/WMT/2022/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/WMT/2022/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/WMT/2023/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/WMT/2023/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/WMT/2023/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/WMT/2023/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/WMT/2024/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/WMT/2024/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/WMT/2024/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/WMT/2024/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/XOM/2020/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/XOM/2020/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/XOM/2020/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/XOM/2020/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/XOM/2021/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/XOM/2021/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/XOM/2021/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/XOM/2021/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/XOM/2022/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/XOM/2022/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/XOM/2022/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/XOM/2022/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/XOM/2023/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/XOM/2023/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/XOM/2023/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/XOM/2023/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/XOM/2024/Q1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/XOM/2024/Q2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/XOM/2024/Q3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Normalized/XOM/2024/Q4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/ADSK/2020/calls_ADSK_2020_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/ADSK/2020/calls_ADSK_2020_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/ADSK/2020/calls_ADSK_2020_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/ADSK/2020/calls_ADSK_2020_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/ADSK/2021/calls_ADSK_2021_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/ADSK/2021/calls_ADSK_2021_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/ADSK/2021/calls_ADSK_2021_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/ADSK/2021/calls_ADSK_2021_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/ADSK/2022/calls_ADSK_2022_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/ADSK/2022/calls_ADSK_2022_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/ADSK/2022/calls_ADSK_2022_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/ADSK/2022/calls_ADSK_2022_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/ADSK/2023/calls_ADSK_2023_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/ADSK/2023/calls_ADSK_2023_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/ADSK/2023/calls_ADSK_2023_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/ADSK/2023/calls_ADSK_2023_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/ADSK/2024/calls_ADSK_2024_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/ADSK/2024/calls_ADSK_2024_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/ADSK/2024/calls_ADSK_2024_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/ADSK/2024/calls_ADSK_2024_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/ADSK/2025/calls_ADSK_2025_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/ADSK/2025/calls_ADSK_2025_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/ADSK/2025/calls_ADSK_2025_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APA/2020/calls_APA_2020_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APA/2020/calls_APA_2020_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APA/2020/calls_APA_2020_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APA/2020/calls_APA_2020_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APA/2021/calls_APA_2021_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APA/2021/calls_APA_2021_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APA/2021/calls_APA_2021_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APA/2021/calls_APA_2021_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APA/2022/calls_APA_2022_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APA/2022/calls_APA_2022_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APA/2022/calls_APA_2022_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APA/2022/calls_APA_2022_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APA/2023/calls_APA_2023_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APA/2023/calls_APA_2023_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APA/2023/calls_APA_2023_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APA/2023/calls_APA_2023_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APA/2024/calls_APA_2024_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APA/2024/calls_APA_2024_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APA/2024/calls_APA_2024_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APA/2024/calls_APA_2024_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APTV/2020/calls_APTV_2020_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APTV/2020/calls_APTV_2020_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APTV/2020/calls_APTV_2020_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APTV/2020/calls_APTV_2020_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APTV/2021/calls_APTV_2021_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APTV/2021/calls_APTV_2021_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APTV/2021/calls_APTV_2021_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APTV/2021/calls_APTV_2021_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APTV/2022/calls_APTV_2022_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APTV/2022/calls_APTV_2022_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APTV/2022/calls_APTV_2022_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APTV/2022/calls_APTV_2022_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APTV/2023/calls_APTV_2023_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APTV/2023/calls_APTV_2023_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APTV/2023/calls_APTV_2023_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APTV/2023/calls_APTV_2023_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APTV/2024/calls_APTV_2024_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APTV/2024/calls_APTV_2024_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APTV/2024/calls_APTV_2024_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/APTV/2024/calls_APTV_2024_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BKR/2020/calls_BKR_2020_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BKR/2020/calls_BKR_2020_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BKR/2020/calls_BKR_2020_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BKR/2020/calls_BKR_2020_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BKR/2021/calls_BKR_2021_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BKR/2021/calls_BKR_2021_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BKR/2021/calls_BKR_2021_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BKR/2021/calls_BKR_2021_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BKR/2022/calls_BKR_2022_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BKR/2022/calls_BKR_2022_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BKR/2022/calls_BKR_2022_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BKR/2022/calls_BKR_2022_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BKR/2023/calls_BKR_2023_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BKR/2023/calls_BKR_2023_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BKR/2023/calls_BKR_2023_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BKR/2023/calls_BKR_2023_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BKR/2024/calls_BKR_2024_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BKR/2024/calls_BKR_2024_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BKR/2024/calls_BKR_2024_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BKR/2024/calls_BKR_2024_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BX/2020/calls_BX_2020_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BX/2020/calls_BX_2020_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BX/2020/calls_BX_2020_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BX/2020/calls_BX_2020_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BX/2021/calls_BX_2021_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BX/2021/calls_BX_2021_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BX/2021/calls_BX_2021_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BX/2021/calls_BX_2021_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BX/2022/calls_BX_2022_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BX/2022/calls_BX_2022_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BX/2022/calls_BX_2022_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BX/2022/calls_BX_2022_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BX/2023/calls_BX_2023_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BX/2023/calls_BX_2023_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BX/2023/calls_BX_2023_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BX/2023/calls_BX_2023_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BX/2024/calls_BX_2024_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BX/2024/calls_BX_2024_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BX/2024/calls_BX_2024_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/BX/2024/calls_BX_2024_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/CMCSA/2020/calls_CMCSA_2020_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/CMCSA/2020/calls_CMCSA_2020_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/CMCSA/2020/calls_CMCSA_2020_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/CMCSA/2020/calls_CMCSA_2020_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/CMCSA/2021/calls_CMCSA_2021_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/CMCSA/2021/calls_CMCSA_2021_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/CMCSA/2021/calls_CMCSA_2021_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/CMCSA/2021/calls_CMCSA_2021_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/CMCSA/2022/calls_CMCSA_2022_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/CMCSA/2022/calls_CMCSA_2022_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/CMCSA/2022/calls_CMCSA_2022_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/CMCSA/2022/calls_CMCSA_2022_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/CMCSA/2023/calls_CMCSA_2023_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/CMCSA/2023/calls_CMCSA_2023_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/CMCSA/2023/calls_CMCSA_2023_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/CMCSA/2023/calls_CMCSA_2023_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/CMCSA/2024/calls_CMCSA_2024_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/CMCSA/2024/calls_CMCSA_2024_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/CMCSA/2024/calls_CMCSA_2024_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/CMCSA/2024/calls_CMCSA_2024_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/DAL/2020/calls_DAL_2020_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/DAL/2020/calls_DAL_2020_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/DAL/2020/calls_DAL_2020_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/DAL/2020/calls_DAL_2020_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/DAL/2021/calls_DAL_2021_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/DAL/2021/calls_DAL_2021_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/DAL/2021/calls_DAL_2021_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/DAL/2021/calls_DAL_2021_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/DAL/2022/calls_DAL_2022_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/DAL/2022/calls_DAL_2022_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/DAL/2022/calls_DAL_2022_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/DAL/2022/calls_DAL_2022_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/DAL/2023/calls_DAL_2023_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/DAL/2023/calls_DAL_2023_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/DAL/2023/calls_DAL_2023_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/DAL/2023/calls_DAL_2023_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/DAL/2024/calls_DAL_2024_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/DAL/2024/calls_DAL_2024_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/DAL/2024/calls_DAL_2024_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/DAL/2024/calls_DAL_2024_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/FOX/2020/calls_FOX_2020_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/FOX/2020/calls_FOX_2020_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/FOX/2020/calls_FOX_2020_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/FOX/2020/calls_FOX_2020_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/FOX/2021/calls_FOX_2021_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/FOX/2021/calls_FOX_2021_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/FOX/2021/calls_FOX_2021_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/FOX/2021/calls_FOX_2021_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/FOX/2022/calls_FOX_2022_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/FOX/2022/calls_FOX_2022_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/FOX/2022/calls_FOX_2022_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/FOX/2022/calls_FOX_2022_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/FOX/2023/calls_FOX_2023_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/FOX/2023/calls_FOX_2023_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/FOX/2023/calls_FOX_2023_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/FOX/2023/calls_FOX_2023_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/FOX/2024/calls_FOX_2024_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/FOX/2024/calls_FOX_2024_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/FOX/2024/calls_FOX_2024_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/FOX/2025/calls_FOX_2025_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/FOX/2025/calls_FOX_2025_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GOOGL/2020/calls_GOOGL_2020_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GOOGL/2020/calls_GOOGL_2020_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GOOGL/2020/calls_GOOGL_2020_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GOOGL/2020/calls_GOOGL_2020_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GOOGL/2021/calls_GOOGL_2021_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GOOGL/2021/calls_GOOGL_2021_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GOOGL/2021/calls_GOOGL_2021_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GOOGL/2021/calls_GOOGL_2021_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GOOGL/2022/calls_GOOGL_2022_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GOOGL/2022/calls_GOOGL_2022_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GOOGL/2022/calls_GOOGL_2022_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GOOGL/2022/calls_GOOGL_2022_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GOOGL/2023/calls_GOOGL_2023_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GOOGL/2023/calls_GOOGL_2023_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GOOGL/2023/calls_GOOGL_2023_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GOOGL/2023/calls_GOOGL_2023_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GOOGL/2024/calls_GOOGL_2024_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GOOGL/2024/calls_GOOGL_2024_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GOOGL/2024/calls_GOOGL_2024_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GOOGL/2024/calls_GOOGL_2024_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GS/2020/calls_GS_2020_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GS/2020/calls_GS_2020_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GS/2020/calls_GS_2020_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GS/2020/calls_GS_2020_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GS/2021/calls_GS_2021_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GS/2021/calls_GS_2021_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GS/2021/calls_GS_2021_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GS/2021/calls_GS_2021_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GS/2022/calls_GS_2022_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GS/2022/calls_GS_2022_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GS/2022/calls_GS_2022_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GS/2022/calls_GS_2022_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GS/2023/calls_GS_2023_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GS/2023/calls_GS_2023_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GS/2023/calls_GS_2023_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GS/2023/calls_GS_2023_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GS/2024/calls_GS_2024_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GS/2024/calls_GS_2024_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GS/2024/calls_GS_2024_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/GS/2024/calls_GS_2024_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/HPE/2020/calls_HPE_2020_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/HPE/2020/calls_HPE_2020_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/HPE/2020/calls_HPE_2020_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/HPE/2020/calls_HPE_2020_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/HPE/2021/calls_HPE_2021_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/HPE/2021/calls_HPE_2021_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/HPE/2021/calls_HPE_2021_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/HPE/2021/calls_HPE_2021_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/HPE/2022/calls_HPE_2022_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/HPE/2022/calls_HPE_2022_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/HPE/2022/calls_HPE_2022_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/HPE/2022/calls_HPE_2022_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/HPE/2023/calls_HPE_2023_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/HPE/2023/calls_HPE_2023_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/HPE/2023/calls_HPE_2023_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/HPE/2023/calls_HPE_2023_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/HPE/2024/calls_HPE_2024_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/HPE/2024/calls_HPE_2024_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/HPE/2024/calls_HPE_2024_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/HPE/2024/calls_HPE_2024_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/HPE/2025/calls_HPE_2025_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/INTC/2020/calls_INTC_2020_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/INTC/2020/calls_INTC_2020_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/INTC/2020/calls_INTC_2020_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/INTC/2020/calls_INTC_2020_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/INTC/2021/calls_INTC_2021_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/INTC/2021/calls_INTC_2021_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/INTC/2021/calls_INTC_2021_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/INTC/2021/calls_INTC_2021_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/INTC/2022/calls_INTC_2022_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/INTC/2022/calls_INTC_2022_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/INTC/2022/calls_INTC_2022_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/INTC/2022/calls_INTC_2022_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/INTC/2023/calls_INTC_2023_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/INTC/2023/calls_INTC_2023_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/INTC/2023/calls_INTC_2023_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/INTC/2023/calls_INTC_2023_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/INTC/2024/calls_INTC_2024_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/INTC/2024/calls_INTC_2024_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/INTC/2024/calls_INTC_2024_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/INTC/2024/calls_INTC_2024_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/PYPL/2020/calls_PYPL_2020_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/PYPL/2020/calls_PYPL_2020_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/PYPL/2020/calls_PYPL_2020_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/PYPL/2020/calls_PYPL_2020_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/PYPL/2021/calls_PYPL_2021_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/PYPL/2021/calls_PYPL_2021_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/PYPL/2021/calls_PYPL_2021_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/PYPL/2021/calls_PYPL_2021_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/PYPL/2022/calls_PYPL_2022_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/PYPL/2022/calls_PYPL_2022_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/PYPL/2022/calls_PYPL_2022_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/PYPL/2022/calls_PYPL_2022_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/PYPL/2023/calls_PYPL_2023_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/PYPL/2023/calls_PYPL_2023_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/PYPL/2023/calls_PYPL_2023_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/PYPL/2023/calls_PYPL_2023_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/PYPL/2024/calls_PYPL_2024_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/PYPL/2024/calls_PYPL_2024_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/PYPL/2024/calls_PYPL_2024_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/PYPL/2024/calls_PYPL_2024_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/WMT/2020/calls_WMT_2020_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/WMT/2021/calls_WMT_2021_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/WMT/2021/calls_WMT_2021_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/WMT/2021/calls_WMT_2021_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/WMT/2021/calls_WMT_2021_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/WMT/2022/calls_WMT_2022_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/WMT/2022/calls_WMT_2022_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/WMT/2022/calls_WMT_2022_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/WMT/2022/calls_WMT_2022_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/WMT/2023/calls_WMT_2023_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/WMT/2023/calls_WMT_2023_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/WMT/2023/calls_WMT_2023_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/WMT/2023/calls_WMT_2023_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/WMT/2024/calls_WMT_2024_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/WMT/2024/calls_WMT_2024_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/WMT/2024/calls_WMT_2024_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/WMT/2024/calls_WMT_2024_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/XOM/2020/calls_XOM_2020_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/XOM/2020/calls_XOM_2020_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/XOM/2020/calls_XOM_2020_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/XOM/2020/calls_XOM_2020_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/XOM/2021/calls_XOM_2021_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/XOM/2021/calls_XOM_2021_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/XOM/2021/calls_XOM_2021_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/XOM/2021/calls_XOM_2021_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/XOM/2022/calls_XOM_2022_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/XOM/2022/calls_XOM_2022_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/XOM/2022/calls_XOM_2022_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/XOM/2022/calls_XOM_2022_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/XOM/2023/calls_XOM_2023_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/XOM/2023/calls_XOM_2023_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/XOM/2023/calls_XOM_2023_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/XOM/2023/calls_XOM_2023_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/XOM/2024/calls_XOM_2024_1.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/XOM/2024/calls_XOM_2024_2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/XOM/2024/calls_XOM_2024_3.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/Transcripts/Raw/XOM/2024/calls_XOM_2024_4.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ECT Vizs/data_cleaning_audit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ECT Vizs/speaker_dominance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ECT Vizs/temporal_distribution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ECT Vizs/transcript_composition.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/ECT Vizs/words_per_role.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/News Vizs/Dataset A articles_per_month.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/News Vizs/Dataset A articles_per_year.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/News Vizs/Dataset B articles_per_month.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/News Vizs/Dataset B articles_per_year.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/News Vizs/attrition_bar_chart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/News Vizs/news_count_ticker_distribution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/News Vizs/relevance_histogram.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/News Vizs/relevance_leaderboard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/News Vizs/temporal_continuity_check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/News Vizs/ticker_attrition_comparison.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/News Vizs/ticker_relevance_distribution.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/Price Vizs/StudyPeriod_Price_Trend.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notebooks/ECT Cleaning &amp; EDA.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notebooks/ECT Validation.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notebooks/NewsData_Cleaning &amp; EDA.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notebooks/News_Data_Sampling.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Notebooks/Price_Data_Cleaning &amp; EDA.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NewCollection.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/PriceData.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RandomSampling.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Transcripts_Normalization.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Transcripts_Normalization.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="3AHkeiyYqLSMegSs9GmPOngwF9F" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.NewCollection.executor": "Run",
+    "Python.PriceData.executor": "Run",
+    "Python.RandomSampling.executor": "Run",
+    "Python.Transcripts_Normalization.executor": "Run",
+    "Python.geminitest.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.scrript test.executor": "Run",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "settings.editor.selected.configurable": "project.propVCSSupport.Confirmation",
+    "to.speed.mode.migration.done": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-ca5e2b39c7df-6e1f45a539f7-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.29346.308" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a2327e1-485c-47b7-bdb4-c9433c36476a" name="Changes" comment="" />
+      <created>1772256982305</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1772256982305</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
