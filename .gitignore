@@ -1,0 +1,42 @@
+# created by virtualenv automatically
+# Directories containing datasets and materials
+Data/
+data/
+"Modelling Data"/
+Images/
+images/
+
+# Archive files & large binaries
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.pdf
+
+# Serialized model weights & vectorizers
+*.pkl
+*.pt
+*.pth
+*.bin
+*.h5
+
+# All table data files anywhere
+**/*.csv
+**/*.tsv
+**/*.parquet
+**/*.xlsx
+
+# All image formats anywhere
+**/*.png
+**/*.jpg
+**/*.jpeg
+**/*.gif
+**/*.svg
+**/*.webp
+
+# IDE and Python caches
+.idea/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/.venv/
